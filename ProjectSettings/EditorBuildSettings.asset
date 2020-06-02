@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/1.unity
-    guid: 597785d73160c37408f09067c83e8c04
+    path: Assets/_Scenes/Combinado.unity
+    guid: ddc12324f79cd094dbf891e5193e85a4
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6e6a6af829f4b1a43a8e91a2dd9e62da,
       type: 2}

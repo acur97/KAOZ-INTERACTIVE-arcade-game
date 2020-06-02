@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Nave
+  - Asteroide
+  - Fire
+  - Arcade1
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - Arcade
   - Arcade-tapa
   - Default2
-  - 
+  - Bala
   - 
   - 
   - 

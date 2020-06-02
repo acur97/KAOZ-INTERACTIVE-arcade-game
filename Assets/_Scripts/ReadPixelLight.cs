@@ -12,7 +12,7 @@ public class ReadPixelLight : MonoBehaviour
     public float dividir = 0;
     public float dividirTapa = 0;
     public float ValorFinal = 0;
-    public Light luz;
+    public Light[] luz;
     public Light luzTapa;
 
     private Rect rec;
@@ -33,8 +33,6 @@ public class ReadPixelLight : MonoBehaviour
 
     private void LateUpdate()
     {
-        //Graphics.CopyTexture(rTexture, 0, 0, (int)rec.x, (int)rec.y, 1, 1, rTexture3, 0, 0, 0, 0);
-
         var data = toTexture2D(rTexture).GetRawTextureData<Color32>();
         valor = data[posicion];
 
@@ -45,7 +43,16 @@ public class ReadPixelLight : MonoBehaviour
         }
         valorSumado = suma / data.Length;
         ValorFinal = valorSumado / dividir;
-        luz.intensity = ValorFinal;
-        luzTapa.intensity = valorSumado / dividirTapa;
+        if (luz.Length != 0)
+        {
+            for (int i = 0; i < luz.Length; i++)
+            {
+                luz[i].intensity = ValorFinal;
+            }
+        }
+        if (luzTapa != null)
+        {
+            luzTapa.intensity = valorSumado / dividirTapa;
+        }
     }
 }
