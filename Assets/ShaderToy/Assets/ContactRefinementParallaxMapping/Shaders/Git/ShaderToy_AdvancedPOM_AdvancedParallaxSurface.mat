@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderToy_AdvancedPOM_AdvancedParallaxSurface
+  m_Shader: {fileID: 4800000, guid: 3eb99a32faf2a184c94a42bac16913d3, type: 3}
+  m_ShaderKeywords: SELFSHADOWS_SOFT _PTHQ_CONTACT_REFINEMENT _QUALITY_LOW
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: 13800ea89ab02324dacc1ff75658b6d4, type: 3}
+        m_Scale: {x: 2.5, y: 1.505}
+        m_Offset: {x: 0, y: 0.014}
+    - _MixMap:
+        m_Texture: {fileID: 2800000, guid: 54314a09a3c1c5543b5bff227937a7f6, type: 3}
+        m_Scale: {x: 2.5, y: 1.505}
+        m_Offset: {x: 0, y: 0.014}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: d343aed4835a335488881f4bb492bb56, type: 3}
+        m_Scale: {x: 2.5, y: 1.505}
+        m_Offset: {x: 0, y: 0.014}
+    m_Floats:
+    - _AOF: 1.25
+    - _Depth: 0.6
+    - _DepthMap: 0
+    - _Emissive: 0
+    - _EmissiveF: 0
+    - _MaxDepth: 1
+    - _Metallic: 0
+    - _NormalF: 1.04
+    - _OutputDepth: 0
+    - _Pthq: 4
+    - _Quality: 0
+    - _RoughnessF: 0.75
+    - _SSPow: 1
+    - _SShadowsSoft: 1
+    m_Colors:
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1167,7 +1167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &44464348
 Transform:
   m_ObjectHideFlags: 0
@@ -1957,7 +1957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &69767574
 Transform:
   m_ObjectHideFlags: 0
@@ -11959,7 +11959,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 1.5
-  m_Radius: 0.2
+  m_Radius: 0.175
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -24294,7 +24294,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886030364}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -29335,7 +29335,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073119577}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -40385,7 +40385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6fa5f2e7607459ba395388ad01d8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_CubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 3}
 --- !u!1 &1475619314
 GameObject:
   m_ObjectHideFlags: 0
@@ -42091,7 +42091,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1528584049
 Transform:
   m_ObjectHideFlags: 0
@@ -42432,7 +42432,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534076022}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -56504,7 +56504,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881895941}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -57073,7 +57073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1917834323
 Transform:
   m_ObjectHideFlags: 0
@@ -68417,7 +68417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2122645440
 Transform:
   m_ObjectHideFlags: 0
@@ -68804,7 +68804,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132786178}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -77828,7 +77828,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294430222252572465}
   m_LocalRotation: {x: -0, y: -0, z: 0.016196914, w: 0.99986887}
-  m_LocalPosition: {x: -2.353, y: 0.987, z: -4.8682556}
+  m_LocalPosition: {x: -2.353, y: 0.987, z: -4.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1846406465683562975}

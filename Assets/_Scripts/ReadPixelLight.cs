@@ -5,7 +5,6 @@ using UnityEngine;
 public class ReadPixelLight : MonoBehaviour
 {
     public RenderTexture rTexture;
-    //public RenderTexture rTexture3;
     public int posicion = 21333;
     public Color32 valor;
     public float valorSumado = 0;
@@ -16,18 +15,20 @@ public class ReadPixelLight : MonoBehaviour
     public Light luzTapa;
 
     private Rect rec;
+    private Texture2D tex;
+    private float suma = 0;
 
     private void Awake()
     {
         rec = new Rect(0, 0, rTexture.width, rTexture.height);
+        tex = new Texture2D(rTexture.width, rTexture.height, TextureFormat.RGB24, false);
     }
 
     private Texture2D toTexture2D(RenderTexture rTex)
     {
-        Texture2D tex = new Texture2D(rTex.width, rTex.height, TextureFormat.RGB24, false);
-        //RenderTexture.active = rTex;
+        Destroy(tex);
+        tex = new Texture2D(rTex.width, rTex.height, TextureFormat.RGB24, false);
         tex.ReadPixels(rec, 0, 0, false);
-        //tex.Apply();
         return tex;
     }
 
@@ -36,7 +37,7 @@ public class ReadPixelLight : MonoBehaviour
         var data = toTexture2D(rTexture).GetRawTextureData<Color32>();
         valor = data[posicion];
 
-        float suma = 0;
+        suma = 0;
         for (int i = 0; i < data.Length; i++)
         {
             suma += data[i].a;

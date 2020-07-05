@@ -26,14 +26,14 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 1
     maximumLODLevel: 0
     streamingMipmapsActive: 1
     streamingMipmapsAddAllCameras: 1
     streamingMipmapsMemoryBudget: 512
     streamingMipmapsRenderersPerFrame: 512
-    streamingMipmapsMaxLevelReduction: 2
+    streamingMipmapsMaxLevelReduction: 7
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 1024
     asyncUploadTimeSlice: 2
@@ -44,13 +44,5 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 0
-    Lumin: 0
-    Nintendo Switch: 0
-    PS4: 0
-    Stadia: 0
     Standalone: 0
     WebGL: 0
-    Windows Store Apps: 0
-    XboxOne: 0
-    iPhone: 0
-    tvOS: 0
